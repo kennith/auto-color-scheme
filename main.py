@@ -21,8 +21,8 @@ class AutodetectCommand(sublime_plugin.TextCommand):
 		sublime.save_settings("Preferences.sublime-settings")
 
 	def dark(self):
-		self.update('Packages/auto-detect-color-scheme/themes/GitHub_Dark.tmTheme')
+		self.update('Packages/auto-color-scheme/themes/GitHub_Dark.tmTheme')
 
 	def light(self):
-		self.update('Packages/auto-detect-color-scheme/themes/GitHub_Light.tmTheme')
+		self.update('Packages/auto-color-scheme/themes/GitHub_Light.tmTheme')
 		
