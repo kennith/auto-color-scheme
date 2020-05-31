@@ -3,9 +3,9 @@ import sublime_plugin
 from .vendor.darkdetect import isDark, isLight
 
 def plugin_loaded():
-	autodetectCommand = AutodetectCommand(sublime_plugin.TextCommand)
+	auto_color_scheme = AutoColorSchemeCommand(sublime_plugin.TextCommand)
 
-class AutodetectCommand(sublime_plugin.TextCommand):
+class AutoColorSchemeCommand(sublime_plugin.TextCommand):
 	def __init__(self, edit):
 		self.run(edit)
 
