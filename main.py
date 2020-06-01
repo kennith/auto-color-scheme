@@ -21,8 +21,8 @@ class AutoColorSchemeCommand(sublime_plugin.TextCommand):
 		sublime.save_settings("Preferences.sublime-settings")
 
 	def dark(self):
-		self.update('Packages/auto-color-scheme/themes/GitHub_Dark.tmTheme')
+		self.update('Packages/GitHub Theme/schemes/GitHub Dark.sublime-color-scheme')
 
 	def light(self):
-		self.update('Packages/auto-color-scheme/themes/Eleven_Light.tmTheme')
+		self.update('Packages/GitHub Theme/schemes/GitHub Light.sublime-color-scheme')
 		
